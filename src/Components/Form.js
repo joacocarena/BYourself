@@ -1,6 +1,6 @@
 import '../estilos/styles-note.css'
 import '../estilos/styles-phone.css'
-import {BrowserRouter, Link, Route, Routes} from 'react-router-dom'
+import {HashRouter, Link, Route, Routes} from 'react-router-dom'
 import Register from './Register'
 import App from '../App'
 

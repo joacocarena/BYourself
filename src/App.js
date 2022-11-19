@@ -1,5 +1,5 @@
 import Form from './Components/Form'
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {HashRouter, Route, Routes} from 'react-router-dom'
 import Register from './Components/Register';
 import Home from './Components/Home';
 
