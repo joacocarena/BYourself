@@ -1,0 +1,206 @@
+@media screen and (min-width: 1024px) and (max-width: 1380px) {
+    body {
+        height: 100vh;
+    }
+    /* FORM LOG IN */
+    .titulo {
+        font-family: 'Playfair Display', serif;
+        color: #7978FF;
+        text-align: center;
+        font-size: 5em;
+        padding-top: .7em;
+        padding-bottom: .55em;
+        padding-left: 6.4em;
+        width: 10%;
+        background-size: contain;
+    }
+    
+    .titulo:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    #card {
+        background-color: #0D4C92;
+        width: 40%;
+        border-radius: 15px;
+        padding: 1.5em 2.5em;
+        margin-top: -2em;
+    }
+    
+    #card #formulario h3 {
+        text-align: center;
+        color: #fff;
+        padding-top: .6em;
+        padding-bottom: .8em;
+        font-size: 1.8em;
+    }
+    
+    #card #formulario label {
+        color: #fff;
+        padding-bottom: .4em;
+        font-size: 1.2em;
+    }
+    
+    #card #formulario .envio {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #card #formulario #boton-login {
+        background-color: #7978FF;
+        color: #fff;
+        font-size: 1.2em;
+        margin-left: 10.5em;
+        margin-bottom: 1em;
+        margin-top: .8em;
+    }
+    
+    #card #formulario .envio #forgotten {
+        margin-left: -2em;
+        font-size: .99em;
+        color:  #9ED5C5;
+    }
+    
+    #card #formulario .envio #forgotten:hover {
+        color: #fff;
+        transition: .3s ease-out;
+    }
+    
+    #card #formulario p {
+        color: #fff;
+        text-align: center;
+        font-size: 1.1em;
+        margin-bottom: -.0em;
+        margin-left: .4em;
+    }
+    
+    #card #formulario a {
+        text-align: center;
+        color: #9ED5C5;
+        font-size: 1.09em;
+        margin-left: 11.75em;
+        margin-top: .6em;
+    }
+    
+    #card #formulario a:hover {
+        color: #fff;
+        transition: .3s ease-out;
+    }
+    /* FORM REGISTER */
+    #card-reg {
+        background-color: #0D4C92;
+        width: 40%;
+        border-radius: 15px;
+        padding: 2em 2.5em;
+        margin-top: -2em;
+    }
+    
+    #card-reg #form-register h3 {
+        text-align: center;
+        color: #fff;
+        padding-bottom: .7em;
+        font-size: 1.8em;
+    }
+    
+    #card-reg #form-register .form-group label {
+        color: #fff;
+        padding-bottom: .3em;
+        font-size: 1.1em;
+    }
+    
+    #card-reg #form-register .form-group input {
+        margin-bottom: .6em;
+    }
+    
+    #card-reg #form-register #boton-register {
+        background-color: #7978FF;
+        color: #fff;
+        font-size: 1.2em;
+        margin-left: 9.6em;
+        margin-bottom: 1em;
+        margin-top: .2em;
+    }
+    
+    #card-reg #form-register p{
+        color: #fff;
+        text-align: center;
+        font-size: 1.1em;
+        margin-bottom: -.0em;
+        margin-left: .4em;
+    }
+    
+    #card-reg #form-register #a-login {
+        text-align: center;
+        color: #9ED5C5;
+        font-size: 1.09em;
+        margin-left: 11.89em;
+        margin-top: .6em;
+    }
+    
+    #card-reg #form-register #a-login:hover {
+        color: #fff;
+        transition: .3s ease-out;
+    }
+    #home {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(21%2c 67%2c 96%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c428.826C100.897%2c450.742%2c215.778%2c526.647%2c300.907%2c468.221C386.753%2c409.303%2c350.618%2c272.519%2c375.174%2c171.336C394.379%2c92.202%2c431.819%2c19.642%2c429.527%2c-61.757C427.032%2c-150.364%2c423.586%2c-249.97%2c361.53%2c-313.267C299.928%2c-376.1%2c196.352%2c-356.619%2c112.948%2c-384.664C24.99%2c-414.24%2c-52.02%2c-506.446%2c-141.666%2c-482.468C-231.07%2c-458.554%2c-260.747%2c-347.521%2c-312.574%2c-270.847C-358.004%2c-203.637%2c-413.203%2c-141.351%2c-426.347%2c-61.299C-439.631%2c19.605%2c-421.476%2c102.366%2c-385.991%2c176.276C-350.948%2c249.264%2c-294.939%2c309.183%2c-227.188%2c353.512C-159.047%2c398.096%2c-79.575%2c411.541%2c0%2c428.826' fill='%23123a53'%3e%3c/path%3e%3cpath d='M1440 918.885C1535.986 942.877 1628.342 1032.625 1720.337 996.212 1809.4180000000001 960.952 1821.019 839.328 1860.9769999999999 752.254 1901.0149999999999 665.006 1962.185 581.716 1954.4569999999999 486.032 1946.563 388.288 1888.1309999999999 301.134 1818.932 231.65300000000002 1752.594 165.04500000000002 1665.423 125.45600000000002 1573.912 103.93900000000002 1485.92 83.24900000000002 1396.92 93.60399999999998 1308.337 111.59699999999998 1212.448 131.07299999999998 1093.416 131.22199999999998 1039.0520000000001 212.577 984.0550000000001 294.879 1056.045 404.899 1046.504 503.424 1037.609 595.272 943.1949999999999 685.542 985.297 767.656 1027.839 850.627 1148.784 846.0409999999999 1237.261 875.467 1304.1970000000001 897.729 1371.564 901.779 1440 918.885' fill='%23184c6d'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    }
+    #home #titulo-home {
+        margin-top: -.6em;
+    }
+    #home .imgs #img1 {
+        width: 20%;
+        height: 535px;
+        margin-left: 11em;
+        margin-top: -3em;
+        border-radius: 45px;
+    }
+    #home .imgs #img2 {
+        width: 58%;
+        height: 60%;
+        margin-left: 2em;
+        margin-top: -3.5em;
+    }
+    #home header nav ul {
+        margin-top: -6.5em;
+        margin-bottom: 4em;
+        display: flex;
+        float: right;
+    }
+    #home header nav ul li {
+        list-style: none;
+    }
+    #home header nav ul li a {
+        margin-left: 18.09em;
+        list-style: none;
+        text-decoration: none;
+        font-size: 1.3em;
+        background-color: #6b728e;
+        color: #fff;
+        padding: .5em .8em;
+        border-radius: 15px;
+    }
+    #home main {
+        color: #fff;
+    }
+    #home main .descrip {
+        margin-top: 1em;
+    }
+    #home main .descrip h2 span {
+        color: #6b728e;
+    }
+    #home footer {
+        text-align: center;
+    }
+    #home footer .media {
+        margin-left: -2.7em;
+        margin-bottom: 2em;
+        padding-bottom: .4em;
+        margin-top: -.1em;
+    }
+    #home footer .media a {
+        color: #fff;
+        font-size: 1.5em;
+        margin-left: 1.8em;
+    }
+}
